@@ -17,16 +17,23 @@ The smoothing algorithm is implemented in Java and compressed into the file 'Sna
 
 It reads only pure LineString-geometries adapted to [GeoJSON-Specification](http://geojson.org/geojson-spec.html)
 
-*{ "type": "LineString",
+```json
+{ "type": "LineString",
   "coordinates": [ [100.0, 0.0], [101.0, 1.0] ]
-  }*
+}
+```
 
 ***Such a pure LineString can be used directly from commandline:***
 
+```sh
 SnakesLineSmoothing.jar <inFile> <outFile> <tolerance>'
-
---> e.g.: java -jar SnakesLineSmoothing.jar in.json out.json 0.05
-
+```
+	
+--> e.g.: 	
+	```sh
+	java -jar SnakesLineSmoothing.jar in.json out.json 0.05
+	```
+	
 
 
 
