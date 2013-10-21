@@ -19,3 +19,13 @@ It reads only pure LineString-geometries adapted to [GeoJSON-Specification](http
   "coordinates": [ [100.0, 0.0], [101.0, 1.0] ]
   }*
 
+***Such a pure LineString can be used directly from commandline:***
+
+*SnakesLineSmoothing.jar <inFile> <outFile> <tolerance>*
+
+--> e.g.: java -jar SnakesLineSmoothing.jar in.json out.json 0.05
+
+
+
+
+
