@@ -50,10 +50,15 @@ Additionally you can write some simple scripts in python...
 	```sh
 	python smoothToFeatClass.py -i in.json -o outFeatClass.json -t 0.05
 	```
-	***You can [view the resulting GeoJSON-File directly](outFeatClass.json) on GitHub!!!***
+	***You can [view the resulting GeoJSON-FeatureClass directly](outFeatClass.json) on GitHub!!!***
 
+### Exemplary workflow:
 
-	
+* Get the navigation route from paris (*48.86,2.33*) to moscow (*55.08,37.57*) *[lat, lng]*
+
+	```sh
+	python routeToJson.py -o route.json -s 48.86,2.33 -e 55.08,37.57
+	```
 
 
 

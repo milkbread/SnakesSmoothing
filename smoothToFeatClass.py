@@ -4,9 +4,9 @@ import json
 import os
 import subprocess
 import time
-from classes.checkArguments import getIOFiles
+from classes import checkArguments as check
 
-input, output, threshold = getIOFiles();
+input, output, threshold = check.getIOFilesThreshold();
 #print(input, output, threshold);
 
 print 'Begin to smooth geometry!'
