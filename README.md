@@ -23,17 +23,35 @@ It reads only pure LineString-geometries adapted to [GeoJSON-Specification](http
 }
 ```
 
-***Such a pure LineString can be used directly from commandline:***
+### Process directly from commandline (Java):
 
 ```sh
-SnakesLineSmoothing.jar <inFile> <outFile> <tolerance>'
+SnakesLineSmoothing.jar <inFile> <outFile> <tolerance>
 ```
 	
 --> e.g.: 	
 
 ```sh
-java -jar SnakesLineSmoothing.jar in.json out.json 0.05
+java -jar SnakesLineSmoothing.jar in.json outGeom.json 0.05
 ```
+
+*Result:* smoothed pure GeoJSON-LineString-geometry
+
+### Exemplary processing in Python:
+
+Additionally you can write some simple scripts in python...
+* *smooth.py* - exemplary script to call the algorithm from python
+	´´´sh
+	python smooth.py
+	´´´
+* *smoothToFeatClass.py* - complex script that works uses dynamic input-parameters and saves the resulting geometry to a GeoJSON-FeatureClass
+	´´´sh
+	python smoothToFeatClass.py -i in.json -o outFeatClass.json -t 0.05
+	´´´
+
+***You can view the resulting GeoJSON-File directly on GitHub!!!***
+
+
 	
 
 
