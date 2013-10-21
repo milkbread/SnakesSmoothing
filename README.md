@@ -40,7 +40,7 @@ java -jar SnakesLineSmoothing.jar in.json outGeom.json 0.05
 ### Exemplary processing in Python:
 
 Additionally you can write some simple scripts in python...
-* *smooth.py* - exemplary script to call the algorithm from python
+* *[smooth.py](blob/master/smooth.py)* - exemplary script to call the algorithm from python
 	
 	```sh
 	python smooth.py
