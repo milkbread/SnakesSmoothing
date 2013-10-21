@@ -4,7 +4,7 @@ import json
 import os
 import subprocess
 import time
-from checkArguments import getIOFiles
+from classes.checkArguments import getIOFiles
 
 input, output, threshold = getIOFiles();
 #print(input, output, threshold);
