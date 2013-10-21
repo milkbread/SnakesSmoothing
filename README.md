@@ -30,9 +30,10 @@ SnakesLineSmoothing.jar <inFile> <outFile> <tolerance>'
 ```
 	
 --> e.g.: 	
-	```shell
-	java -jar SnakesLineSmoothing.jar in.json out.json 0.05
-	```
+
+```sh
+java -jar SnakesLineSmoothing.jar in.json out.json 0.05
+```
 	
 
 
