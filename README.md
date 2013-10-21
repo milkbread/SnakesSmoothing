@@ -5,7 +5,7 @@
 
 * clone the repository (**recommended**)
 	
-	*git clone https://github.com/milkbread/SnakesSmoothing.git*
+	`git clone https://github.com/milkbread/SnakesSmoothing.git`
 	
 * download the [zip-file](https://github.com/milkbread/SnakesSmoothing/archive/master.zip)
 
@@ -21,7 +21,7 @@ It reads only pure LineString-geometries adapted to [GeoJSON-Specification](http
 
 ***Such a pure LineString can be used directly from commandline:***
 
-'SnakesLineSmoothing.jar <inFile> <outFile> <tolerance>'
+SnakesLineSmoothing.jar <inFile> <outFile> <tolerance>'
 
 --> e.g.: java -jar SnakesLineSmoothing.jar in.json out.json 0.05
 
