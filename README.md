@@ -41,10 +41,12 @@ java -jar SnakesLineSmoothing.jar in.json outGeom.json 0.05
 
 Additionally you can write some simple scripts in python...
 * *smooth.py* - exemplary script to call the algorithm from python
+	
 	```sh
 	python smooth.py
 	```
 * *smoothToFeatClass.py* - complex script that works uses dynamic input-parameters and saves the resulting geometry to a GeoJSON-FeatureClass
+	
 	```sh
 	python smoothToFeatClass.py -i in.json -o outFeatClass.json -t 0.05
 	```
