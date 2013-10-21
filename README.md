@@ -60,6 +60,13 @@ Additionally you can write some simple scripts in python...
 	python routeToJson.py -o route.json -s 48.86,2.33 -e 55.08,37.57
 	```
 
+* Smooth it and save it as GeoJSON-FeatureCollection
+
+	```sh
+	java -jar SnakesLineSmoothing.jar route.json outFeatClass.json 0.05
+	```
+
+
 
 
 
