@@ -45,13 +45,12 @@ Additionally you can write some simple scripts in python...
 	```sh
 	python smooth.py
 	```
-* *smoothToFeatClass.py* - complex script that works uses dynamic input-parameters and saves the resulting geometry to a GeoJSON-FeatureClass
+* *[smoothToFeatClass.py](smoothToFeatClass.py)* - complex script that works uses dynamic input-parameters and saves the resulting geometry to a GeoJSON-FeatureClass
 	
 	```sh
 	python smoothToFeatClass.py -i in.json -o outFeatClass.json -t 0.05
 	```
-
-***You can [view the resulting GeoJSON-File directly](https://github.com/milkbread/SnakesSmoothing/blob/master/outFeatClass.json) on GitHub!!!***
+	***You can [view the resulting GeoJSON-File directly](outFeatClass.json) on GitHub!!!***
 
 
 	
