@@ -5,7 +5,9 @@
 
 * clone the repository (**recommended**)
 	
-	`git clone https://github.com/milkbread/SnakesSmoothing.git`
+	```sh
+	git clone https://github.com/milkbread/SnakesSmoothing.git
+	```
 	
 * download the [zip-file](https://github.com/milkbread/SnakesSmoothing/archive/master.zip)
 
