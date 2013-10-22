@@ -66,7 +66,15 @@ Additionally you can write some simple scripts in python...
 	python smoothToFeatClass.py -i route.json -o outFeatClass.json -t 0.05
 	```
 
+### Efforts on polygon smoothing
 
+* *[topojson_rk.py](topojson_rk.py)* - provides some classes and function to:
+	- read the build the ArcGeometries of a TopoJSON-file and
+	- transform (generalise) them occasionally
+	- build the geometries from these afterwards
 
+* *[smoothArcs.py](smoothArcs.py)* - testscript that:
+	- executes the implemented classes and function
+	- smoothes the ArcGeometries
 
 
