@@ -63,7 +63,7 @@ Additionally you can write some simple scripts in python...
 * Smooth it and save it as GeoJSON-FeatureCollection
 
 	```sh
-	java -jar SnakesLineSmoothing.jar route.json outFeatClass.json 0.05
+	python smoothToFeatClass.py -i route.json -o outFeatClass.json -t 0.05
 	```
 
 
