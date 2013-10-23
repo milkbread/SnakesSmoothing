@@ -68,13 +68,17 @@ Additionally you can write some simple scripts in python...
 
 ### Efforts on polygon smoothing
 
-* *[topojson_rk.py](topojson_rk.py)* - provides some classes and function to:
-	- read the build the ArcGeometries of a TopoJSON-file and
+* *[topojson_rk.py](topojson_rk.py)* - provides some classes and functions to:
+	- build the ArcGeometries of a TopoJSON-file and
 	- transform (generalise) them occasionally
 	- build the geometries from these afterwards
 
 * *[smoothArcs.py](smoothArcs.py)* - testscript that:
-	- executes the implemented classes and function
+	- executes the implemented classes and functions
 	- smoothes the ArcGeometries
+
+	```sh
+	python smoothArcs.py
+	```
 
 
